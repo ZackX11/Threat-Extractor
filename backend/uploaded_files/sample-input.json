@@ -1,0 +1,171 @@
+{
+  "IoCs": {
+    "IPv4 addresses": [],
+    "IPv6 addresses": [],
+    "URLs": [
+      "https://dl.dropboxusercontent.com/s/k288s9tu2o53v41/zs_url.txt?dl=0"
+    ],
+    "Domains": [
+      "zscaler.com",
+      "dl.dropboxusercontent.com"
+    ],
+    "MD5 Hashes": [
+      "bb9ee3a6504fbf6a5486af04dbbb5da5",
+      "e732bc87033a935bd2d3d56c7772641b",
+      "2677f9871cb340750e582cb677d40e81",
+      "37505b6ff02a679e70885ccd60c13f3b",
+      "9775ef6514916977d73e39a6b09029bc",
+      "6df608342938f0d30a058c48bb9d8d4d",
+      "d7f6b09775b8d90d79404eda715461b7",
+      "0c2dde41d508941cf215fe8f1f7e03a7",
+      "a0f565f7f579f0d397a42db5a95d4ae8",
+      "556abc167348fe96abfbf5079c3ad488",
+      "bd416ea51f94d815b5b5b66861cbdcc5",
+      "37b7415442ab8ca01e08b2d7bfe809e2",
+      "ecb2d07ede5a401c83a5fca8e00fa37a",
+      "db0483aced77a7db130a6100aef67967",
+      "90f2b7845c203035f0d7096aa28dda83",
+      "a225b7aff737dea737cd969fb307df23",
+      "1769a818548a0b52c7be2a0a213a9384",
+      "1a536709554860fcc2c147374556205d",
+      "9ad00e513364e9f44f1b6712907cba9b",
+      "044e701e8d288075b0fb6cd118aa94db",
+      "4548c7f157d300ec39b1821db4daa970",
+      "a2aca7b66f678b85fc7b4015af21c5ee",
+      "78aa7e785a96f2826ee09a1aa9ab776e",
+      "15a7125fe9e629122e1d1389062af712",
+      "430d944786e05042cdbe1d795ded2199",
+      "1559aeb8e464759247e4588cb6a09877",
+      "b587851d8a42fc8c23f638bbc2eb866b",
+      "1fd8fef169bf48cfdcf506151264128c",
+      "96d86472ff283f6959b7a779f004dfba",
+      "210db61d1b11c1d233fd8a0645946074",
+      "c0b24dc8f53227ce0c64439b302ca930",
+      "c32f40f304777df7cfab428a54bb818b",
+      "44be20c67a80af8066f9401c5bee43cb",
+      "e25ac08833416b8c7191639b60edfa21",
+      "0ef32b48f6ca3a1a22ab87058b3d8aa0",
+      "4382384feb5ad6b574f68e431006905e",
+      "728b908e90930c73edeb1bf58b6a3a64",
+      "d19dd02cf375d0d03f557556d5207061",
+      "7b07cd6bb6b5d4ed6a2892a738fe892b",
+      "493f59b6933e59029bf3106fd4a2998d",
+      "783e7c3ba39daa28301b841785794d76",
+      "ce00749c908de017010055a83ac0654f",
+      "114f22f3dd6928bed5c779fa918a8f11",
+      "e3ffda448df223b240a20dae41e20cef",
+      "bdfb5071f5374f5c0a3714464b1fa5e6",
+      "e2e5644e77e75e422bde075f409d882e",
+      "825730d9dd22dbae7f2bd89131466415",
+      "c156572dd81c3b0072f62484e90e47a0",
+      "137910039cb94c0301154f3d1ec9ba29"
+    ],
+    "SHA1 Hashes": [],
+    "SHA256 Hashes": [],
+    "Emails": [],
+    "Files": [
+      "chmext.exe",
+      "request.docx",
+      "cmd.exe",
+      "post.php",
+      "explorer.exe",
+      "cryptos_login.docx",
+      "Form.docx",
+      "v3l4sp.exe",
+      "zs_url.txt",
+      "report.docx",
+      "IntelRST.exe",
+      "Planning.docx",
+      "contract.docx",
+      "1hh.html"
+    ]
+  },
+  "TTPS": {
+    "Tactics": [
+      {
+        "TA0002": "Execution"
+      },
+      {
+        "TA0003": "Persistence"
+      },
+      {
+        "TA0007": "Discovery"
+      }
+    ],
+    "Techniques": [
+      {
+        "T1059.001": "Powershell"
+      },
+      {
+        "T1566": "Phishing"
+      }
+    ]
+  },
+  "Entities": {
+    "Threat Actors": [
+      "Prevailion",
+      "ASpacked",
+      "Lazarus Group",
+      "Korea Internet Information Center",
+      "Zscaler Cloud Sandbox",
+      "Daehan Mine Development Co., Ltd.",
+      "IP",
+      "XOR",
+      "OSINT",
+      "Lazarus",
+      "Lazarus APT",
+      "kimkl0222@hotmail[.]com",
+      "Masanhappo-gu",
+      "navermcorp[.]com",
+      "XLS",
+      "Sender",
+      "DNS",
+      "Powershell -Command Add-MpPreference",
+      "KT Corporation",
+      "naveicoipa[.]tech",
+      "PowerShell",
+      "naveicoipd[.]tech",
+      "ESET",
+      "APT",
+      "CHM",
+      "KRNIC",
+      "Ahnlab",
+      "navermanage[.]com",
+      "GET",
+      "naveicoipc[.]com",
+      "NFT",
+      "Naver",
+      "naversecurityteam[.]com",
+      "Correlating",
+      "Dropbox",
+      "Sender's IP",
+      "RUN",
+      "Sandbox",
+      "DeviceIoControl",
+      "WindowsDefender",
+      "naveicoipe[.]tech",
+      "PE",
+      "POST",
+      "Google",
+      "Minting.chm",
+      "Original Name Translated Name",
+      "ThreatLabz",
+      "Zscaler\u2019s ThreatLabz",
+      "Binance",
+      "PDB",
+      "naveicoipj[.]online\nnaveicoipi[.]online\nnaveicoipe[.]online\nnaveicoipd[.]online"
+    ],
+    "Targeted Entities": [
+      "North Korea",
+      "8/11",
+      "South Korea",
+      "North Korean",
+      "Meta Kong's",
+      "Naver",
+      "Korea",
+      "Metakongz",
+      "South Korean",
+      "Korean"
+    ]
+  }
+}

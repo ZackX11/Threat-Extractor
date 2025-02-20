@@ -1,0 +1,69 @@
+{
+  "IoCs": {
+    "IPv4 addresses": [],
+    "IPv6 addresses": [],
+    "URLs": [],
+    "Domains": [
+      "corolain.ru",
+      "symantec-enterprise-blogs.security.com"
+    ],
+    "MD5 Hashes": [],
+    "SHA1 Hashes": [],
+    "SHA256 Hashes": [],
+    "Emails": [],
+    "Files": [
+      "shtasks.exe",
+      "wscript.exe",
+      "get.php"
+    ]
+  },
+  "TTPS": {
+    "Tactics": [
+      {
+        "TA0003": "Persistence"
+      }
+    ],
+    "Techniques": [
+      {
+        "T1059.001": "Powershell"
+      },
+      {
+        "T1053.005": "Scheduled Task"
+      }
+    ]
+  },
+  "Entities": {
+    "Threat Actors": [
+      "ntusers.ini",
+      "VBScript",
+      "Broadcom Software",
+      "Scheduled Tasks",
+      "the Symantec Protection Bulletin",
+      "C&C",
+      "IOC",
+      "DLL",
+      "Protection/Mitigation",
+      "Shuckworm",
+      "Offsprint.gif",
+      "PowerShell",
+      "SCHTASKS",
+      "Process Explorer",
+      "VBScripts",
+      "API",
+      "Symantec Endpoint",
+      "Microsoft",
+      "Invoke-Expression",
+      "7-Zip"
+    ],
+    "Targeted Entities": [
+      "Gamaredon",
+      "Russian",
+      "Symantec",
+      "Ukraine",
+      "//b",
+      "Armageddon",
+      "Pterodo",
+      "Ukrainian"
+    ]
+  }
+}

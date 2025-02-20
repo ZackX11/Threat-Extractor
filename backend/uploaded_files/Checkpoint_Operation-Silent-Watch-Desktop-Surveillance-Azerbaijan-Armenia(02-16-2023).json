@@ -1,0 +1,237 @@
+{
+  "IoCs": {
+    "IPv4 addresses": [
+      "127.0.0.1"
+    ],
+    "IPv6 addresses": [],
+    "URLs": [
+      "https://smartappsfoursix[.]xyz/wp-feed.php",
+      "https://www.filecloudservices.xyz/wp-comment.php",
+      "https://edupoliceam[.]info/upload.php?GUID=<guid",
+      "https://edupoliceam[.]info/upload.php?GUID",
+      "https://sourceforge.net/projects/phpfm",
+      "https://github.com/sivel/speedtest-cli"
+    ],
+    "Domains": [
+      "sourceforge.net",
+      "resolver1.opendns.com",
+      "github.com",
+      "www.filecloudservices.xyz",
+      "myip.opendns.com",
+      "research.checkpoint.com"
+    ],
+    "MD5 Hashes": [
+      "0360185bc6371ae42ca0dffe0a21455d",
+      "a1a39e458977aa512b7ff2ba1995b18d",
+      "86b5245112436e8a5eabf92fab01ffba",
+      "cf225029cade918d92b4b4e2b789b7a5",
+      "6ac414fad3d61ad5b23c2bcdd8ee797f",
+      "ddac9a1189e4b9528d411e07d0e98895",
+      "df9673032789847a367df9923bbd44d2",
+      "1c94f1c6241cb598da5da7150a0dc541"
+    ],
+    "SHA1 Hashes": [],
+    "SHA256 Hashes": [],
+    "Emails": [],
+    "Files": [
+      "WinRAR64.zip",
+      "7za.exe",
+      "pscclient.exe",
+      "REPORT_ON_THE_AZERBAIJANI_MILLITARY_AGRESSION_AGAINST_ARTSAKH.pdf",
+      "2021.exe",
+      "command-.txt",
+      "tvnserver.exe",
+      "File.txt",
+      "wsrrun.exe",
+      "Unrar.exe",
+      "MediaRun.exe",
+      "wp-feed.php",
+      "Autoit3.exe",
+      "AppCrashCollector.exe",
+      "Wintight.exe",
+      "ptun.exe",
+      "postup.exe",
+      "wp-comment.php",
+      "BBC-suallar.rar",
+      "7zxa.dll",
+      "comment.php",
+      "suallar.scr",
+      "7za.dll",
+      "tar.gz",
+      "WinRAR32.zip",
+      "AutoIt3.exe",
+      "speedtest.zip",
+      "connectionlessupdate.exe",
+      "Alexander_Lapshin.pdf",
+      "vlc.zip",
+      "curl.exe",
+      "cmd.exe",
+      "wintight.exe",
+      "Thumb.db",
+      "upload.php",
+      "AutoIT.exe",
+      "libcurl.dll"
+    ]
+  },
+  "TTPS": {
+    "Tactics": [
+      {
+        "TA0002": "Execution"
+      },
+      {
+        "TA0003": "Persistence"
+      },
+      {
+        "TA0009": "Collection"
+      },
+      {
+        "TA0010": "Exfiltration"
+      },
+      {
+        "TA0043": "Reconnaissance"
+      }
+    ],
+    "Techniques": [
+      {
+        "T1059.001": "Powershell"
+      },
+      {
+        "T1053.005": "Scheduled Task"
+      },
+      {
+        "T1566": "Phishing"
+      },
+      {
+        "T1036": "Masquerading"
+      },
+      {
+        "T1113": "Screen Capture"
+      }
+    ]
+  },
+  "Entities": {
+    "Threat Actors": [
+      "Unzip",
+      "DLL",
+      "hostname & ipconfig",
+      "Archive",
+      "Collect",
+      "Check Point Research",
+      "@TempDir &",
+      "the Police Education Complex of Police",
+      "SMTP",
+      "Azeri Ministry of Internal Affairs",
+      "Check Point",
+      "Euros",
+      "PDF",
+      "Artsakh/Nagorno-Karabakh",
+      "Execute",
+      "uploadexec zipit\n",
+      "KHTML",
+      "&MASSDL=1",
+      "POST",
+      "Abulfaz Gurbanli",
+      "Thumb.db",
+      "Upload",
+      "Qurium Media",
+      "massdownload path",
+      "C&C",
+      "PHP CLI",
+      "AZERBAIJAN",
+      "Alexander Lapshin",
+      "Speedtest CLI",
+      "Speedtest",
+      "Implant Download",
+      "Temp",
+      "REPORT_ON_THE_AZERBAIJANI_MILLITARY_AGRESSION (Final Updated",
+      "Trojan",
+      "Passport",
+      "Thumb",
+      "Exit",
+      "U",
+      "Nagorno-Karabakh",
+      "Lachin",
+      "DOC",
+      "Wikipedia",
+      "desktoprecord",
+      "CNN",
+      "TightVNC",
+      "Lapshin",
+      "IP",
+      "Download",
+      "EXE",
+      "Firefox/96.0.1\" & $",
+      "/all & arp -a & getmac & net use & net\nshare & quser",
+      "Cyberhub-AM",
+      "Qurium",
+      "listdir",
+      "wp-feed.php",
+      "PowerShell",
+      "PHP",
+      "Oracle",
+      "ko-kr",
+      "/all & net user & systeminfo & wmic",
+      "Armenia",
+      "TCP Connect",
+      "WMIC",
+      "Azerbaijani",
+      "Android",
+      "WordPress",
+      "PHP File",
+      "Download Wintight.exe",
+      "Cloudflare",
+      "CLI",
+      "the Armenian Artsakhbank",
+      "AutoItSpy",
+      "-s",
+      "the European Court of Human Rights",
+      "Func rar_it($source_file_or_dir",
+      "Temporary",
+      "List",
+      "NameCheap",
+      "filecloudservices[.]xyz",
+      "Unrar.exe",
+      "Kill",
+      "resolver1.opendns.com",
+      "Amnesty International",
+      "Visa Office",
+      "Kill TightVNC",
+      "wp-comment.php\n",
+      "Desktop",
+      "RAR",
+      "VirusTotal",
+      "the Nagorno-Karabakh Republic",
+      "Next",
+      "VLC",
+      "Random(1",
+      "Check Point\u2019s",
+      "Microsoft Access",
+      "BBC"
+    ],
+    "Targeted Entities": [
+      "The Republic of Artsakh",
+      "Russian-Israeli",
+      "C&C",
+      "Belarus",
+      "Gecko",
+      "Speedtest",
+      "guid>&come=1",
+      "Yerevan",
+      "Azerbaijan",
+      "Armenia",
+      "Background",
+      "Baku",
+      "Artsakh",
+      "Exit",
+      "Azerbaijani",
+      "uploadexec",
+      "DB",
+      "Armenian",
+      "the Republic of Armenia",
+      "Autoit",
+      "Russian",
+      "VT",
+      "Israel"
+    ]
+  }
+}

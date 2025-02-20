@@ -1,0 +1,88 @@
+{
+  "IoCs": {
+    "IPv4 addresses": [],
+    "IPv6 addresses": [],
+    "URLs": [],
+    "Domains": [
+      "symantec-enterprise-blogs.security.com"
+    ],
+    "MD5 Hashes": [],
+    "SHA1 Hashes": [],
+    "SHA256 Hashes": [],
+    "Emails": [],
+    "Files": [
+      "svhost.exe",
+      "notepad.exe",
+      "wmiexec.py",
+      "pl.exe",
+      "iexplore.exe",
+      "pvhost.exe",
+      "tapi.exe",
+      "explorer.exe",
+      "svchost.exe"
+    ]
+  },
+  "TTPS": {
+    "Tactics": [
+      {
+        "TA0003": "Persistence"
+      },
+      {
+        "TA0010": "Exfiltration"
+      }
+    ],
+    "Techniques": [
+      {
+        "T1059.001": "Powershell"
+      },
+      {
+        "T1036": "Masquerading"
+      }
+    ]
+  },
+  "Entities": {
+    "Threat Actors": [
+      "Mimikatz",
+      "BAT",
+      "PuTTY\u2019s PSCP",
+      "Broadcom Software",
+      "Download",
+      "the Symantec Protection Bulletin",
+      "C&C",
+      "DDoS",
+      "IOC",
+      "Info",
+      "Jokra",
+      "Protection/Mitigation",
+      "Sleeps",
+      "Silent Chollima",
+      "WinSCP",
+      "PowerShell",
+      "pl.exe",
+      "SSH",
+      "Operation Dream Job",
+      "Stonefly\u2019s Backdoor",
+      "XXXXXXXX",
+      "Operation Troy",
+      "PSCP",
+      "Task Scheduler",
+      "TEMP/~[XXXXXXXX].tmp",
+      "BlackMine",
+      "Trojan (Backdoor",
+      "Shell Execute",
+      "shellcode",
+      "CVE-2021-44228",
+      "Symantec Endpoint",
+      "WMI"
+    ],
+    "Targeted Entities": [
+      "North Korea",
+      "Tojan",
+      "North Korean",
+      "Symantec",
+      "U.S.",
+      "Stonefly",
+      "South Korean"
+    ]
+  }
+}

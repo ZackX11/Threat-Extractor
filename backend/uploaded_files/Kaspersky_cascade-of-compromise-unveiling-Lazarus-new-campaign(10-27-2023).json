@@ -1,0 +1,143 @@
+{
+  "IoCs": {
+    "IPv4 addresses": [],
+    "IPv6 addresses": [],
+    "URLs": [],
+    "Domains": [
+      "securelist.com",
+      "kaspersky.com"
+    ],
+    "MD5 Hashes": [
+      "88a96f8730b35c7406d57f23bbba734d",
+      "Ae00b0f490b122ebab614d98bb2361f7",
+      "54df2984e833ba2854de670cce43b823",
+      "3a77b5054c36e6812f07366fb70b007d",
+      "31af3e7fff79bc48a99b8679ea74b589",
+      "9b62352851c9f82157d1d7fcafeb49d3",
+      "e6fa116ef2705ecf9677021e5e2f691e",
+      "E89fa6345d06da32f9c8786b65111928",
+      "9cd90dff2d9d56654dbecdcd409e1ef3"
+    ],
+    "SHA1 Hashes": [],
+    "SHA256 Hashes": [],
+    "Emails": [
+      "intelreports@kaspersky.com"
+    ],
+    "Files": [
+      "SgrmLpac.exe",
+      "ualapi.dll",
+      "ESENT.dll",
+      "winhttp.dll",
+      "spoolsv.exe",
+      "wbemcomn.dll"
+    ]
+  },
+  "TTPS": {
+    "Tactics": [
+      {
+        "TA0001": "Initial Access"
+      },
+      {
+        "TA0002": "Execution"
+      },
+      {
+        "TA0003": "Persistence"
+      },
+      {
+        "TA0004": "Privilege Escalation"
+      },
+      {
+        "TA0005": "Defense Evasion"
+      },
+      {
+        "TA0006": "Credential Access"
+      },
+      {
+        "TA0007": "Discovery"
+      },
+      {
+        "TA0009": "Collection"
+      },
+      {
+        "TA0011": "Command And Control"
+      },
+      {
+        "TA0010": "Exfiltration"
+      }
+    ],
+    "Techniques": [
+      {
+        "T1574.002": "Dll Side-Loading"
+      },
+      {
+        "T1012": "Windows Registry"
+      }
+    ]
+  },
+  "Entities": {
+    "Threat Actors": [
+      "nhd",
+      "BD 1D",
+      "Next",
+      "changeFileTime",
+      "hxxps://hspje[.]com:80/menu6/teacher_qna[.]asp",
+      "SIGNBTLG",
+      "u_cd",
+      "getFileDir",
+      "Torrent Wizard",
+      "setHibernate",
+      "Config",
+      "TREX",
+      "Lazarus",
+      "Function",
+      "sto",
+      "hxxps://www[.]droof[.]kr/Board",
+      "Credential Access T1003.001\n",
+      "SID",
+      "hxxps://www[.]muijae[.]com",
+      "CCBrush",
+      "DLL",
+      "Prefix",
+      "Description",
+      "ga_fc",
+      "fu",
+      "Shareaza",
+      "hxxp://www[.]hankooktop[.]com",
+      "ifi",
+      "CPU",
+      "Controls/Board/certificate[.]cer\nhxxps://www[.]muijae[.]com",
+      "SIGNBTFI",
+      "SIGNBTKE Success",
+      "shv",
+      "secDelete",
+      "Collection T1113\nCommand and",
+      "HTML",
+      "SIGNBT",
+      "SIGNBTKE",
+      "UID",
+      "Malware Technologies",
+      "setSleep",
+      "DWORD",
+      "XORed",
+      "Putty",
+      "DOCTYPE",
+      "MachineGuid",
+      "uci",
+      "C:\\ProgramData\\ntuser.008.dat\nC:\\ProgramData\\ntuser.009.dat\nC:\\ProgramData\\ntuser.001.dat\nC:\\ProgramData\\ntuser.002.dat\nC:\\ProgramData\\Microsoft\\Windows\\ServiceSetting\\ESENT.dll",
+      "u_nplug",
+      "biw",
+      "AES",
+      "mem"
+    ],
+    "Targeted Entities": [
+      "system%\\ualapi.dll",
+      "conn",
+      "SIGNBTGC",
+      "T1132.002",
+      "imex",
+      "T1574.002",
+      "XU",
+      "Windows"
+    ]
+  }
+}
